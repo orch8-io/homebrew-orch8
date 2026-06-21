@@ -1,28 +1,28 @@
 class Orch8Server < Formula
   desc "Durable workflow orchestration engine"
   homepage "https://orch8.io"
-  version "0.4.0"
+  version "0.6.0"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
       url "https://github.com/orch8-io/engine/releases/download/v#{version}/orch8-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "fa8d2713f47f4561117da810ebca4ca217fff049e7acbd4f285c50d82da4bda0"
+      sha256 "aedb2dbc61b3d20609b54af38a76e783a222c39b07dc43e7994087abd0541479"
     end
     on_intel do
       url "https://github.com/orch8-io/engine/releases/download/v#{version}/orch8-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "d4329b0fe7af469310a79be12247367cad3b7689a387df0aa92a50b30a1832ab"
+      sha256 "d8e8d2020e954395ad4c2b3fedad8eb6a41ca236c25b06857ff21368188c4cae"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/orch8-io/engine/releases/download/v#{version}/orch8-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "89eec276556a7d77d9235c3461c3405382cbe3ae2fc9e35d126712a60b60e640"
+      sha256 "806ba671aad13b348f0f8fc963888e4fc0889e4c57f888bb0d1402621cab7413"
     end
     on_intel do
       url "https://github.com/orch8-io/engine/releases/download/v#{version}/orch8-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7e4fa44c118c9adc9afb98c47cf73d2fac928a59a5f50a83700c0773d018a8d8"
+      sha256 "347a88de23dcf827e2cb4ef5f1c6f5bcf81b2ef4203acc37bb3b7297e14047dd"
     end
   end
 

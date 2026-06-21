@@ -1,28 +1,28 @@
 class Orch8Cli < Formula
   desc "CLI for Orch8 workflow engine"
   homepage "https://orch8.io"
-  version "0.1.0"
+  version "0.2.0"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
       url "https://github.com/orch8-io/cli/releases/download/v#{version}/orch8-cli-v#{version}-darwin-arm64.tar.gz"
-      sha256 "f7e638f3f46767ded5b785afcbd1f47b448da653de7f2dd7b6efaf754fdfdf2c"
+      sha256 "a56ba2f84a73cf23193b87b12ba338d14a48a367f163efa060de8b76484ed233"
     end
     on_intel do
       url "https://github.com/orch8-io/cli/releases/download/v#{version}/orch8-cli-v#{version}-darwin-amd64.tar.gz"
-      sha256 "5137cbab0bac64e02526c3344f8c6c2b1e5a4c19d69c65eeb730d09c691c1fdd"
+      sha256 "9c7e6b0eb3721299984e9795d8f5a8c56f4f6783695a147456ba3f22b68d0f6c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/orch8-io/cli/releases/download/v#{version}/orch8-cli-v#{version}-linux-arm64.tar.gz"
-      sha256 "ee9f6d48ea30ad44266f92c25320b9813d10de0c60bda1fe0f78da9c47804de0"
+      sha256 "4dd3b8afce9c00d9a776cb6892c1f38e4561dd43fdb479db2c62d242f53bb492"
     end
     on_intel do
       url "https://github.com/orch8-io/cli/releases/download/v#{version}/orch8-cli-v#{version}-linux-amd64.tar.gz"
-      sha256 "b06009681b1fb4cb0ec5cc47bda423f1297dfa57cd5bbedb63670bc399d5e373"
+      sha256 "b96379506562c817e4c5b63eb76e9278268e49854d867076fbcc9a3d04375738"
     end
   end
 
